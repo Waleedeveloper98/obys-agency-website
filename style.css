@@ -734,6 +734,16 @@ body{
     body{
         overflow-x: hidden;
     }
+    #loader{
+        height: 100%;
+        width: 100vh;
+        position: fixed;
+        z-index: 9999;
+        background-color: #030303;
+        padding: 30vw 8vw;
+        padding-top: 80vw;
+
+    }
     #page1{
         width: 100%;
         height: 70vh;
